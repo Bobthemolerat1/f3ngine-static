@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
 @import url('https://unpkg.com/@fortawesome/fontawesome-free@5.15.4/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=PT+Sans+Caption&family=Source+Sans+Pro:wght@700&display=swap');
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
@@ -10,7 +10,7 @@
 }
 
 * {
-    font-family: Roboto;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -42,7 +42,7 @@ body {
 
 .logo-wrapper .text {
     font-size: 75px;
-    font-family: "Roboto";
+    font-family: 'Montserrat', sans-serif;
     color: #000;
 }
 
