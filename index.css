@@ -15,7 +15,7 @@
 
 body {
     margin: 0;
-    background: #212121;
+    background: #FFF;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -25,7 +25,7 @@ body {
 }
 
 .fa-magnifying-glass {
-    color: white;
+    color: black;
 }
 
 .logo-wrapper {
@@ -43,11 +43,11 @@ body {
 .logo-wrapper .text {
     font-size: 75px;
     font-family: "Roboto";
-    color: #FFF;
+    color: #000;
 }
 
 .logo-wrapper h1 {
-    color: white;
+    color: black;
 }
 
 footer {
@@ -64,7 +64,7 @@ footer a,
 footer span {
     margin: 0 15px;
     text-decoration: none;
-    color: #FFF;
+    color: rgb(0, 0, 0);
     font-size: 15px;
 }
 
@@ -88,7 +88,7 @@ form {
 
 .desc p {
     width: 560px;
-    color: rgba(253, 253, 253, 0.514);
+    color: rgba(255, 255, 255, 0.514);
 }
 
 form input {
@@ -103,11 +103,11 @@ form input {
     width: 350px;
     margin-top: 5px;
     border-radius: 50px;
-    color: #FFF;
+    color: rgb(0, 0, 0);
 }
 
 form input:focus {
-    border: 1px solid rgba(253, 253, 253, 0.514);
+    border: 1px solid rgba(0, 0, 0, 0.573);
     border-radius: 6px;
     animation: fadeInAnimation ease-in-out 0.3s;
     animation-iteration-count: 1;
